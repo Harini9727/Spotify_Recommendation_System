@@ -4,10 +4,10 @@ Implemented content-based recommender system that will use the K-Nearest-Neighbo
 
 For this project, I used a preprocessed data set from Spotify where various songs (1421 of them) are represented in terms of different musical and acoustic features. Lets assume that, for each user, the system maintains a list of songs liked or played by the user in the past (e.g., a playlist). A user's profile will be represented as the aggregate vector representation of the songs in the user's playlist. The main task for the system is to match the user's profile with representations of the available songs and recommend the top k songs most similar to that profile. The necessary data files are:
 
-readme.txt -- this file provides a more detailed description of each file.
-Spotify_Metadata.csv
-Spotify_Numeric.csv
-Spotify_Users.txt
+- readme.txt -- this file provides a more detailed description of each file.
+- Spotify_Metadata.csv
+- Spotify_Numeric.csv
+- Spotify_Users.txt
 
 The  tasks for this project are the following:
 
